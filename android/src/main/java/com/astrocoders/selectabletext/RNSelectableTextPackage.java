@@ -1,6 +1,4 @@
-
-
-package com.astrocoders.selectabletext;
+package com.forzys.selectabletext;
 
 import java.util.Arrays;
 import java.util.Collections;

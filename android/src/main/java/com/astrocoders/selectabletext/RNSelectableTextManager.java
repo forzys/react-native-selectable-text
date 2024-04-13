@@ -1,4 +1,4 @@
-package com.astrocoders.selectabletext;
+package com.forzys.selectabletext;
 
 import android.view.Menu;
 import android.view.MenuItem;
@@ -108,11 +108,6 @@ public class RNSelectableTextManager extends ReactTextViewManager {
 
     @Override
     public Map getExportedCustomDirectEventTypeConstants() {
-        return MapBuilder.builder()
-                .put(
-                        "topSelection",
-                        MapBuilder.of(
-                                "registrationName","onSelection"))
-                .build();
+        return MapBuilder.builder().put("topSelection",MapBuilder.of("registrationName","onSelection")).build();
     }
 }
