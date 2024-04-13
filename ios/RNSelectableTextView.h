@@ -1,8 +1,4 @@
-#if __has_include(<RCTText/RCTBaseTextInputView.h>)
-#import <RCTText/RCTBaseTextInputView.h>
-#else
-#import "RCTBaseTextInputView.h"
-#endif
+#import <React/RCTBaseTextInputView.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
