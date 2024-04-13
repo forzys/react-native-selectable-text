@@ -2,7 +2,7 @@
   "name": "@forzys/react-native-selectable-text",
   "version": "1.6.1",
   "description": "React Native component used to provide the features of pass different context menu items and events",
-  "main": "index.js",
+  "main": "index.ts",
   "homepage": "https://github.com/forzys/react-native-selectable-text",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
